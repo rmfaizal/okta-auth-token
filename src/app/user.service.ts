@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class UserService {
-  private auth0ApiUrl = 'https://dev-2xlyhzwr7rpiwjnn.us.auth0.com/api/v2/userinfo'; // Auth0 Userinfo endpoint
+  private auth0ApiUrl = 'https://dev-2xlyhzwr7rpiwjnn.us.auth0.com/userinfo'; // Auth0 Userinfo endpoint
 
   constructor(private http: HttpClient, private auth: AuthService) {}
 

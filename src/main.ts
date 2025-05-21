@@ -12,9 +12,9 @@ bootstrapApplication(AppComponent, {
     provideRouter(routes),
     provideAuth0({
       domain: 'dev-2xlyhzwr7rpiwjnn.us.auth0.com',
-      clientId: 'XglzcYWXZeYpmAtokfjlg2KNffgLc08h',
+      clientId: '9tP4AHgauZI4kJ7oVJFuG2PwjnRlB6bu',
       authorizationParams: {
-        redirect_uri: 'https://rmfaizal.github.io/okta-auth',
+        redirect_uri: 'https://rmfaizal.github.io/okta-auth-token',
       },
       cacheLocation: 'memory',
       useRefreshTokens: true,
